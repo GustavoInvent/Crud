@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1tvLwXDz/7M6GDn6G2kyhyQSgDSiU+RmU4NWCl7Z1LEi2DVagF3eoQ2mbYSqIxIxOMbMdME4wWiN+kKg4sUyIw==",
+  "dgSpecHash": "IUrIP/k7UjhVpjpA/+6BUMwO8MFvm5LRz3fyCgwpk4Mw/sy578SAfp1cbPrNpTCLBIT40VMf8VVTx4yeUOhCig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gustavo\\Documents\\Crud\\Crud\\Crud.UI.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "C:\\Users\\Gustavo\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\Gustavo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"

@@ -1,11 +1,7 @@
-﻿using LinqToDB;
-using LinqToDB.Configuration;
-using System;
+﻿using LinqToDB.Configuration;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DataModel;
+
 
 namespace Crud.Infra
 {

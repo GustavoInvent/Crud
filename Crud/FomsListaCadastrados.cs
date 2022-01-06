@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using Crud.Domain;
-using Crud.Infra;
 using Ninject.Parameters;
-using Ninject.Modules;
-using System.Collections.Generic;
+
 
 namespace Crud.UI
 {

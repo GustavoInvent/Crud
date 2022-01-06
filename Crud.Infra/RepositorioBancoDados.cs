@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Ninject;
 using DataModel;
 using LinqToDB;
 using Crud.Domain;
@@ -37,7 +33,7 @@ namespace Crud.Infra
 
             }
         }
-        public new void Deletar( DadosCliente dadosCliente)
+        public void Deletar( DadosCliente dadosCliente)
         {
 
             using (var db = new DadosClienteDB())

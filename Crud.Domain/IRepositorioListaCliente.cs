@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Crud.Domain
 {
     public interface IRepositorioListaCliente

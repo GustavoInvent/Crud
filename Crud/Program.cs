@@ -1,12 +1,7 @@
 using Crud.UI;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Ninject;
 using Crud.Infra;
-using DataModel;
 using LinqToDB.Data;
 
 namespace Crud
@@ -20,6 +15,7 @@ namespace Crud
         static void Main()
         {
             DataConnection.DefaultSettings = new MySettings();
+            
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

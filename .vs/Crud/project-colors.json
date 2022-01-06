@@ -20,7 +20,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Arquivos Diversos",
       "ColorIndex": -1
+    },
+    "6c0feded-f262-4937-82f8-4c94f1b2b2af": {
+      "ProjectGuid": "6c0feded-f262-4937-82f8-4c94f1b2b2af",
+      "DisplayName": "CrudWeb",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

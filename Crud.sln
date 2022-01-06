@@ -12,6 +12,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud.Infra", "Crud.Infra\Cr
 		{90390980-D7FC-48F1-87C8-93E925552842} = {90390980-D7FC-48F1-87C8-93E925552842}
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrudWeb", "CrudWeb\CrudWeb.csproj", "{6C0FEDED-F262-4937-82F8-4C94F1B2B2AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1230A3FE-CF5B-4E66-8E23-2939F5066461}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +37,10 @@ Global
 		{ABBB4465-785B-4AB0-AFB4-6FE1178BE21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABBB4465-785B-4AB0-AFB4-6FE1178BE21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABBB4465-785B-4AB0-AFB4-6FE1178BE21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0FEDED-F262-4937-82F8-4C94F1B2B2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0FEDED-F262-4937-82F8-4C94F1B2B2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0FEDED-F262-4937-82F8-4C94F1B2B2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0FEDED-F262-4937-82F8-4C94F1B2B2AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

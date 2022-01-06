@@ -1,0 +1,66 @@
+﻿@model List<Crud.Domain.DadosCliente>
+
+@{
+    ViewData["Title"] = "Cadastrados";
+}
+
+<h1 class="text-center">Lista dos Cadastrados</h1>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+
+<div style="overflow: auto; width: 1200px; height: 500px; border:solid 1px"> 
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Celular
+            </th>
+            <th>
+                CPF
+            </th>
+            <th></th>
+        </tr>
+     </thead>
+ <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                <a type="button" class="btn btn-warning" role ="button" asp-route-id="@item.Id" asp-controller = "DadosClienteWEB" asp-action = "Editar">Editar</a>
+                <a type="button" class="btn btn-danger" role ="button" asp-route-id="@item.Id" asp-controller = "DadosClienteWEB" asp-action = "Deletar">Delete</a>
+            </td>
+     
+        </tr>
+}
+  </tbody>
+</table>
+</div>
+<body>
+    <a type="button" class="btn btn-primary" role ="button" asp-controller = "DadosClienteWEB" asp-action = "NovoCadastro">Novo Cadastro</a>
+</body>

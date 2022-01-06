@@ -15,6 +15,7 @@ using LinqToDB.Configuration;
 using LinqToDB.Mapping;
 using System.Data.SqlClient;
 using LinqToDB.Data;
+using System.Data;
 
 namespace DataModel
 {

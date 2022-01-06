@@ -1,0 +1,47 @@
+﻿@model Crud.Domain.DadosCliente
+
+@{
+    ViewData["Title"] = "Deletar";
+}
+
+
+<div>
+    <h4>Deletar Cliente</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Celular)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Celular)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CPF)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CPF)
+        </dd>
+    </dl>
+    
+    <form asp-action="Deletar">
+        <input type="submit" value="Delete" class="btn btn-danger" />  <a type="button" class="btn btn-success" role ="button" asp-controller = "DadosClienteWEB" asp-action = "Cadastrados">Cancelar</a>
+    </form>
+</div>
